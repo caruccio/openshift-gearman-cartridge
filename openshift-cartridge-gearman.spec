@@ -38,3 +38,6 @@ Provides Gearman cartridge support to OpenShift.
 %doc %{cartridgedir}/LICENSE.txt
 
 %changelog
+* Mon Mar 02 2015 Builder <getup@getupcloud.com> 1.0.0-1
+- new package built with tito
+
