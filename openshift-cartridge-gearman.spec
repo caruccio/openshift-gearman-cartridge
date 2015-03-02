@@ -3,7 +3,7 @@
 Summary:       Provides embedded Gearman support
 Name:          openshift-cartridge-gearman
 Version:       1.0.0
-Release:       1%{?dist}
+Release:       2%{?dist}
 Group:         Network/Daemons
 License:       ASL 2.0
 URL:           http://www.gearman.org
@@ -32,12 +32,14 @@ Provides Gearman cartridge support to OpenShift.
 %dir %{cartridgedir}
 %attr(0755,-,-) %{cartridgedir}/bin/
 %attr(0755,-,-) %{cartridgedir}/hooks/
-%{cartridgedir}/env
 %{cartridgedir}/metadata
 %doc %{cartridgedir}/README.md
 %doc %{cartridgedir}/LICENSE.txt
 
 %changelog
+* Mon Mar 02 2015 Builder <getup@getupcloud.com> 1.0.0-2
+- fix spec
+
 * Mon Mar 02 2015 Builder <getup@getupcloud.com> 1.0.0-1
 - new package built with tito
 
