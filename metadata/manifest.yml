@@ -1,0 +1,32 @@
+Name: gearman
+Cartridge-Short-Name: GEARMAN
+Display-Name: Gearman 1.1
+Description: "Gearman provides a generic application framework to farm out work to other machines or processes that are better suited to do the work. It allows you to do work in parallel, to load balance processing, and to call functions between languages."
+Version: 1.1
+License: Apache
+Vendor: gearman.org
+Cartridge-Version: 1.0.0
+Cartridge-Vendor: getup
+
+Categories:
+- service
+- embedded
+
+Provides:
+- gearman
+- gearman-1
+- gearman-1.1
+
+Scaling:
+  Min: 1
+  Max: 1
+
+Publishes:
+  publish-connection-info:
+    Type: ENV:NET_TCP:db:connection-info
+
+Endpoints:
+  - Private-IP-Name:   IP
+    Private-Port-Name: PORT
+    Private-Port:      4730
+    Public-Port-Name:  PROXY_PORT
