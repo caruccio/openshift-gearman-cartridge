@@ -3,7 +3,7 @@
 Summary:       Provides embedded Gearman support
 Name:          openshift-cartridge-gearman
 Version:       1.0.0
-Release:       4%{?dist}
+Release:       5%{?dist}
 Group:         Network/Daemons
 License:       ASL 2.0
 URL:           http://www.gearman.org

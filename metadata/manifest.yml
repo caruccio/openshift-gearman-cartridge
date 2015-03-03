@@ -6,7 +6,7 @@ Version: 1.1
 License: Apache
 Vendor: gearman.org
 Cartridge-Version: 1.0.0
-Cartridge-Vendor: getup
+Cartridge-Vendor: redhat
 
 Categories:
 - service
