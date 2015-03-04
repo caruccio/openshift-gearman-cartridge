@@ -40,6 +40,10 @@ Provides Gearman cartridge support to OpenShift.
 %doc %{cartridgedir}/LICENSE.txt
 
 %changelog
+* Wed Mar 04 2015 Builder <getup@getupcloud.com> 1.0.0-6
+- Build (getup@getupcloud.com)
+- fix deps (getup@getupcloud.com)
+
 * Tue Mar 03 2015 Builder <getup@getupcloud.com> 1.0.0-5
 - Build (getup@getupcloud.com)
 
