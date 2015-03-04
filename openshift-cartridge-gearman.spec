@@ -10,8 +10,8 @@ URL:           http://www.gearman.org
 Source0:       %{name}-%{version}.tar.gz
 Requires:      gearmand >= 1.1
 Requires:      php-pecl-gearman >= 1.1
-Requires:      php54-php-pecl-gearman >= 11
-Requires:      php55-php-pecl-gearman >= 11
+Requires:      php54-php-pecl-gearman >= 1.1
+Requires:      php55-php-pecl-gearman >= 1.1
 Requires:      rubygem(openshift-origin-node)
 Requires:      openshift-origin-node-util
 Provides:      openshift-cartridge-gearman = 1.1
